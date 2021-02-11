@@ -4,16 +4,147 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,900;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/grid.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/button.css" />
 
     <title>LUXURY</title>
   </head>
   <body>
+    <!------------------------------------------------------>
+    <!---------------------- NAV --------------------------->
+    <!------------------------------------------------------>
+
     <header class="hero">
-      <nav class="bg-label">
-        <div class="label">LUXURY <span>HOTEL</span></div>
-      </nav>
+      <div class="container">
+        <div class="row menu">
+          <!-------- BRAND --------->
+
+          <div class="bg-label">
+            <a class="menu-label" href="#">
+              LUXURY <span class="subtitle">HOTELS</span></a
+            >
+          </div>
+          <!-------- NAV ---------->
+
+          <nav>
+            <ul class="menu-nav">
+              <li><a class="item item-b" href="#">Home</a></li>
+              <li><a class="item" href="#">Facilities</a></li>
+              <li><a class="item" href="#">Rooms</a></li>
+              <li><a class="item" href="#">Contacts-us</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-------- TEXT ---------->
+
+        <div class="text-space">
+          <h3 class="welcome">WELCOME TO</h3>
+          <h1 class="luxury">LUXURY</h1>
+          <h3 class="welcome hotels">HOTELS</h3>
+          <p class="text">
+            Book your stay and enjoy Luxury <br />
+            redefined at the most affordable rates. Copy
+          </p>
+        </div>
+        <!------- BUTTON --------->
+
+        <button class="btn">
+          <p class="btn-text">
+            <img class="btn-logo" src="./assets/Home.png" alt="home" /> BOOK NOW
+          </p>
+        </button>
+
+        <!------- Scroll --------->
+
+        <div class="scroll">
+          <a class="scroll-position" href="#">
+            <span class="scroll-text">Scroll</span>
+            <img class="scroll-img" src="./assets/Scroll.png" alt="scroll" />
+          </a>
+        </div>
+      </div>
     </header>
+    <!------------------------------------------------------>
+    <!---------------------- TEXT/ BOX---------------------->
+    <!------------------------------------------------------>
+
+    <!------ TEXT ----------->
+    <div class="container">
+      <h2 class="title-text">
+        Copy All our room types are including complementary breakfast
+      </h2>
+
+      <!------ SERVICES ----------->
+      <!-- text -->
+
+      <div class="row service">
+        <section class="col-6 service-border">
+          <div>
+            <h1 class="title-service">Luxury redefined</h1>
+
+            <p class="text-service">
+              Our rooms are designed to transport you into an environment made
+              for leisure. Take your mind off the day-to-day of home life and
+              find a private paradise for yourself.
+            </p>
+
+            <button class="btn btn-position">
+              <a href="#"><p class="btn-text">EXPLORE</p></a>
+            </button>
+          </div>
+        </section>
+
+        <!-- image -->
+
+        <section class="col-6">
+          <img class="box-image" src="./assets/box1.png" alt="box" />
+        </section>
+
+        <!------ SERVICES 2 ----------->
+
+        <section class="col-6 service-border">
+          <div>
+            <h1 class="title-service">Luxury redefined</h1>
+
+            <p class="text-service">
+              Our rooms are designed to transport you into an environment made
+              for leisure. Take your mind off the day-to-day of home life and
+              find a private paradise for yourself.
+            </p>
+
+            <button class="btn btn-position">
+              <a href="#"><p class="btn-text">EXPLORE</p></a>
+            </button>
+          </div>
+        </section>
+
+        <!-- image -->
+
+        <section class="col-6">
+          <img class="box-image" src="./assets/box1.png" alt="box" />
+        </section>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="title-service">Testimonials</h1>
+      <h3 class="text-service">
+        "Calm, Serene, Retro – What a way to relax and enjoy"
+      </h3>
+      <h5 class="text-service">Mr. and Mrs. Baxter, UK</h5>
+    </div>
   </body>
 </html>
