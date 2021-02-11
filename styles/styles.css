@@ -1,0 +1,17 @@
+/* ============================================
+===================== Nav =====================
+============================================ */
+
+.hero {
+  background-image: url("../assets/luxury1.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.bg-label {
+  width: 256px;
+  height: 150px;
+  background-color: #e0b973;
+}
