@@ -1,0 +1,39 @@
+@import "../utils/_variables";
+/* ------- Text --------- */
+
+.title-service {
+  color: map-get($colors, "secondary");
+  font-family: "Source Serif Pro", serif;
+  font-size: 30px;
+  line-height: 76px;
+  text-align: center;
+}
+
+.text-service {
+  color: map-get($colors, "secondary");
+  line-height: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+//<--- btn arrow --->
+
+.arrow {
+  display: flex;
+  justify-content: center;
+
+  .arrow-btn {
+    align-items: center;
+    background-color: map-get($colors, "primary");
+    border-radius: 8px;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    margin: 0 8px 0 8px;
+    width: 40px;
+
+    .arrow-img {
+      width: 14px;
+    }
+  }
+}
