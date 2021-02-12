@@ -1,0 +1,51 @@
+@import '../utils/variables';
+
+.navbar {
+  position: absolute;
+  width: 100%;
+
+  .brand {
+    align-items: center;
+    background-color: map-get($colors, 'primary');
+    border-radius: 0 0 40px 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Serif Pro', serif;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    width: 256px;
+
+    .title {
+      color: map-get($colors, 'secondary');
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+    .subttile {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 8px;
+    }
+  }
+
+  &-menu {
+    display: flex;
+
+    &-item {
+      color: map-get($colors, 'white');
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      padding: 45px;
+      position: relative;
+      transition: .15s ease-in-out;
+
+      &.active,
+      &:hover {
+        font-weight: 700;
+      }
+    }
+  }
+}

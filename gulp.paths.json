@@ -1,0 +1,40 @@
+{
+	"src": {
+		"views": {
+			"files": [
+				"./src/*.html",
+                "./src/components/*.html"
+            ],
+            "components": [
+                "./src/components/**/*.html"
+            ],
+            "pages": [
+                "./src/*.html"
+            ]
+		},
+		"css": {
+            "files": [
+                "./src/scss/**/*.scss",
+                "./src/scss/*.scss"
+            ]
+        },
+		"js": {
+            "dependencies": [
+                "./node_modules/jquery/dist/jquery.min.js"
+            ],
+            "files": [
+                "./src/js/*.js",
+                "./src/js/**/*.js"
+            ]
+        },
+		"img": "./src/assets/images/**/*",
+    "fonts": ["./src/assets/fonts/**/*"]
+	},
+	"dest": {
+		"views": "./dist",
+		"css": "./dist/css",
+		"js": "./dist/js",
+		"img": "./dist/assets/images",
+    	"fonts": "./dist/fonts"
+	}
+}

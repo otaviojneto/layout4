@@ -1,0 +1,72 @@
+@import 'variables';
+
+//===============================================
+//                  Generator of background class
+//===============================================
+@each $name in map-keys($colors) {
+  .bg-#{$name} {
+    background: map-get($colors, $name);
+  }
+}
+
+//===============================================
+//                       Generator of color class
+//===============================================
+@each $name in map-keys($colors) {
+  .cl-#{$name} {
+    color: map-get($colors, $name);
+  }
+}
+
+//===============================================
+//     Generator of margins classes from 0 to 100
+//                  pixels and from 5 to 5 pixels
+//===============================================
+@for $i from 0 through 20 {
+  .mg-all-#{$i * 5} { margin: ($i * 5px); }
+
+  .mg-both-#{$i * 5} {
+    margin-bottom: ($i * 5px);
+    margin-top: ($i * 5px);
+  }
+
+  .mg-sides-#{$i * 5} {
+    margin-left: ($i * 5px);
+    margin-right: ($i * 5px);
+  }
+
+  .mg-bottom-#{$i * 5} { margin-bottom: ($i * 5px); }
+
+  .mg-top-#{$i * 5} { margin-top: ($i * 5px); }
+
+  .mg-right-#{$i * 5} { margin-right: ($i * 5px); }
+
+  .mg-left-#{$i * 5} { margin-left: ($i * 5px); }
+}
+
+
+//===============================================
+//     Generator of paddings classes from 0 to 100
+//                  pixels and from 5 to 5 pixels
+//===============================================
+@for $i from 0 through 20 {
+  .pad-all-#{$i * 5} { padding: ($i * 5px); }
+
+  .pad-both-#{$i * 5} {
+    padding-bottom: ($i * 5px);
+    padding-top: ($i * 5px);
+  }
+
+  .pad-sides-#{$i * 5} {
+    padding-left: ($i * 5px);
+    padding-right: ($i * 5px);
+  }
+
+  .pad-bottom-#{$i * 5} { padding-bottom: ($i * 5px); }
+
+  .pad-top-#{$i * 5} { padding-top: ($i * 5px); }
+
+  .pad-right-#{$i * 5} { padding-right: ($i * 5px); }
+
+  .pad-left-#{$i * 5} { padding-left: ($i * 5px); }
+}
