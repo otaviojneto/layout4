@@ -1,0 +1,55 @@
+@import "../utils/_variables";
+
+.title-text {
+  color: map-get($colors, "secondary");
+  font-size: 22px;
+  font-weight: 400;
+  padding: 84px 0 92px;
+  text-align: center;
+}
+
+/* ------- SERVICES --------- */
+
+.service {
+  align-items: center;
+  display: flex;
+}
+
+.service-border {
+  border-left: 2px solid #14274a;
+  display: flex;
+  flex-direction: column;
+  margin-top: -70px;
+  padding: 0 0 0 40px;
+
+  .service-body {
+    margin-left: 12px;
+    max-width: 430px;
+
+    .title-service {
+      color: map-get($colors, "secondary");
+      font-family: "Source Serif Pro", serif;
+      font-size: 34px;
+      line-height: 36px;
+      text-align: left;
+    }
+
+    .text-service {
+      color: map-get($colors, "secondary");
+      font-size: 18px;
+      line-height: 35px;
+      margin-bottom: 20px;
+      max-width: 90%;
+      text-align: left;
+    }
+
+    .btn-position {
+      margin: 0;
+    }
+  }
+}
+
+.box-image {
+  margin-bottom: 90px;
+  max-width: 100%;
+}
