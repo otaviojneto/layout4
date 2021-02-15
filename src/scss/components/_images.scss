@@ -1,0 +1,16 @@
+@import '../utils/_variables';
+
+.image {
+max-width: 100%;
+}
+
+
+.legend {
+  background-color: map-get($colors , "white");
+  color: map-get($colors , "secondary");
+  display: flex;
+  font-size: 38px;
+  font-weight: 700;
+  justify-content: center;
+  margin-top: -10px;
+}
