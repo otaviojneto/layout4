@@ -1,16 +1,27 @@
-@import '../utils/_variables';
+@import "../utils/_variables";
 
-.image {
-max-width: 100%;
-}
+.figure {
+  position: relative;
+  margin-bottom: 100px;
 
+  &-image {
+    max-width: 100%;
+    position: relative;
+  }
 
-.legend {
-  background-color: map-get($colors , "white");
-  color: map-get($colors , "secondary");
-  display: flex;
-  font-size: 38px;
-  font-weight: 700;
-  justify-content: center;
-  margin-top: -10px;
+  &-legend {
+    background-color: map-get($colors, "white");
+    bottom: 0;
+    color: map-get($colors, "secondary");
+    font-size: 38px;
+    font-weight: 700;
+    left: 50%;
+    max-width: 100%;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    padding: 14px 0;
+    width: 650px;
+
+  }
 }
