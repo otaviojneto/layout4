@@ -11,19 +11,18 @@
   margin: 0px auto;
   width: 200px;
 
-  .btn-text {
+  &-text {
     color: map-get($colors, "white");
     font-size: 16px;
     font-weight: 600;
     line-height: 28px;
   }
 
-  .btn-logo {
+  &-logo {
     height: 14px;
   }
 
   &-space {
     margin-right: 20px;
-
   }
 }
