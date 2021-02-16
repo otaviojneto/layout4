@@ -22,7 +22,7 @@
   display: flex;
   justify-content: center;
 
-  .arrow-btn {
+  &-btn {
     align-items: center;
     background-color: map-get($colors, "primary");
     border-radius: 8px;
@@ -32,7 +32,7 @@
     margin: 0 8px 0 8px;
     width: 40px;
 
-    .arrow-img {
+    &-img {
       width: 14px;
     }
   }

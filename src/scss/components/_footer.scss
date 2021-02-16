@@ -9,11 +9,11 @@
     background-color: map-get($colors, "secondary");
     content: "";
     height: 108px;
+    left: calc(50% - 50px);
     position: absolute;
     top: -32px;
-    width: 88px;
-    left: calc(50% - 50px);
     transform: rotate(45deg);
+    width: 88px;
   }
 }
 
@@ -25,8 +25,8 @@
 // ------ hotel/ adress
 
 .luxury-body {
-  padding-top: 80px;
   padding-bottom: 60px;
+  padding-top: 80px;
 
   .luxury-title {
     font-family: "Source Serif Pro", serif;
@@ -62,8 +62,8 @@
 
 // ---- social ----
 .social {
-  padding-bottom: 14px;
   align-items: center;
+  padding-bottom: 14px;
 
   .item-social {
     margin-right: 16px;
