@@ -5,7 +5,7 @@
   background-color: map-get($colors, "secondary");
   margin-bottom: 60px;
 
-  .contact {
+  .cont {
     color: map-get($colors, "white");
     font-size: 36px;
     padding: 200px;
@@ -17,6 +17,8 @@
 
 .contact-title {
   font-size: 32px;
+  line-height: 20px;
+  margin-bottom: 20px;
   text-align: start;
 }
 
@@ -28,13 +30,15 @@
 
 // ------------- form --------------
 
-.form-text {
-  color: map-get($colors, "secondary");
-  font-size: 26px;
-}
+.code {
+  .code-text {
+    color: map-get($colors, "secondary");
+    font-size: 26px;
+  }
 
-.form-text-light {
-  font-weight: 400;
+  .code-text-light {
+    font-weight: 400;
+  }
 }
 
 .form-arrow {
@@ -64,7 +68,7 @@
 
   .btn-contact {
     height: 50px;
-    margin: 30px 0  300px 210px;
+    margin: 30px 0 300px 210px;
     width: 100px;
   }
 }
