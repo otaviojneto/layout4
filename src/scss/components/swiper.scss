@@ -1,0 +1,54 @@
+@import "../utils/_variables";
+@import "./buttons";
+
+.swiper-up {
+  bottom: 40px !important;
+}
+
+.swiper-img {
+  max-width: 100%;
+  max-height: 600px;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+// footer
+
+.single {
+  background-color: #14274a;
+  color: #fff;
+  margin-left: 10%;
+  margin-top: -4px;
+  max-width: 900px;
+  padding: 26px;
+  text-align: center;
+}
+
+.view {
+  align-items: center;
+  border: 3px solid #14274a;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-bottom: 60px;
+  max-width: 900px;
+  padding: 60px;
+
+  .view-body {
+    display: flex;
+
+    .text {
+      font-size: 20px;
+    }
+
+    .btn-som {
+      background-color: #e0b973;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 22px;
+      margin-right: 30px;
+      width: 28px;
+    }
+  }
+}

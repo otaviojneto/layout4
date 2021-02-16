@@ -38,3 +38,11 @@ $('a[href*="#"]:not([href="#"])').click(function () {
     }
   }
 });
+
+// -------------------- swiper --------------------------
+
+var swiper = new Swiper(".swiper-container", {
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
