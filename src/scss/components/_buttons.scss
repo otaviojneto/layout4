@@ -1,18 +1,18 @@
-@import "../utils/_variables";
+@import '../utils/variables';
 
 .btn {
   align-items: center;
-  background-color: map-get($colors, "primary");
+  background-color: map-get($colors, 'primary');
   border-radius: 10px;
   cursor: pointer;
   display: flex;
   height: 60px;
   justify-content: center;
-  margin: 0px auto;
+  margin: 0 auto;
   width: 200px;
 
   &-text {
-    color: map-get($colors, "white");
+    color: map-get($colors, 'white');
     font-size: 16px;
     font-weight: 600;
     line-height: 28px;

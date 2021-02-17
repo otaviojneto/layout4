@@ -1,16 +1,16 @@
-@import "../utils/_variables";
-/* ------- Text --------- */
+@import '../utils/variables';
+
 
 .title-service {
-  color: map-get($colors, "secondary");
-  font-family: "Source Serif Pro", serif;
+  color: map-get($colors, 'secondary');
+  font-family: 'Source Serif Pro', serif;
   font-size: 30px;
   line-height: 76px;
   text-align: center;
 }
 
 .text-service {
-  color: map-get($colors, "secondary");
+  color: map-get($colors, 'secondary');
   line-height: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -24,12 +24,12 @@
 
   &-btn {
     align-items: center;
-    background-color: map-get($colors, "primary");
+    background-color: map-get($colors, 'primary');
     border-radius: 8px;
     display: flex;
     height: 35px;
     justify-content: center;
-    margin: 0 8px 0 8px;
+    margin: 0 8px;
     width: 40px;
 
     &-img {

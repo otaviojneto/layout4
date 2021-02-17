@@ -1,4 +1,4 @@
-@import "../utils/variables";
+@import '../utils/variables';
 
 .navbar {
   position: absolute;
@@ -6,7 +6,7 @@
 
   .brand {
     align-items: center;
-    background-color: map-get($colors, "primary");
+    background-color: map-get($colors, 'primary');
     border-radius: 0 0 40px 40px;
     display: flex;
     flex-direction: column;
@@ -16,16 +16,16 @@
     width: 256px;
 
     .title {
-      color: map-get($colors, "secondary");
-      font-family: "Source Serif Pro", serif;
+      color: map-get($colors, 'secondary');
+      font-family: 'Source Serif Pro', serif;
       font-size: 40px;
       font-weight: 600;
       line-height: 36px;
     }
 
     .subtitle {
-      color: map-get($colors, "secondary");
-      font-family: "Source Serif Pro", serif;
+      color: map-get($colors, 'secondary');
+      font-family: 'Source Serif Pro', serif;
       font-size: 12px;
       font-weight: 700;
       letter-spacing: 8px;
@@ -36,13 +36,13 @@
     display: flex;
 
     &-item {
-      color: map-get($colors, "white");
+      color: map-get($colors, 'white');
       font-size: 16px;
       font-weight: 400;
       line-height: 20px;
       padding: 45px;
       position: relative;
-      transition: 0.15s ease-in-out;
+      transition: .15s ease-in-out;
 
       &.active,
       &:hover {

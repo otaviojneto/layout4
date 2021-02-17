@@ -1,8 +1,8 @@
-@import "../utils/_variables";
+@import '../utils/variables';
 
 .figure {
-  position: relative;
   margin-bottom: 100px;
+  position: relative;
 
   &-image {
     max-width: 100%;
@@ -10,17 +10,17 @@
   }
 
   &-legend {
-    background-color: map-get($colors, "white");
+    background-color: map-get($colors, 'white');
     bottom: 0;
-    color: map-get($colors, "secondary");
+    color: map-get($colors, 'secondary');
     font-size: 38px;
     font-weight: 700;
     left: 50%;
     max-width: 100%;
-    text-align: center;
-    transform: translateX(-50%);
     padding: 14px 0;
     position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
     width: 650px;
   }
 }

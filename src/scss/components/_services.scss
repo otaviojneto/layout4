@@ -1,14 +1,12 @@
-@import "../utils/_variables";
+@import '../utils/variables';
 
 .title-text {
-  color: map-get($colors, "secondary");
+  color: map-get($colors, 'secondary');
   font-size: 22px;
   font-weight: 400;
   padding: 84px 0 92px;
   text-align: center;
 }
-
-/* ------- SERVICES --------- */
 
 .service {
   align-items: center;
@@ -16,7 +14,7 @@
 }
 
 .service-border {
-  border-left: 2px solid #14274a;
+  border-left: 2px solid map-get($colors, 'secondary');
   display: flex;
   flex-direction: column;
   margin-top: -70px;
@@ -27,15 +25,15 @@
     max-width: 430px;
 
     .title-service {
-      color: map-get($colors, "secondary");
-      font-family: "Source Serif Pro", serif;
+      color: map-get($colors, 'secondary');
+      font-family: 'Source Serif Pro', serif;
       font-size: 34px;
       line-height: 36px;
       text-align: left;
     }
 
     .text-service {
-      color: map-get($colors, "secondary");
+      color: map-get($colors, 'secondary');
       font-size: 18px;
       line-height: 35px;
       margin-bottom: 20px;

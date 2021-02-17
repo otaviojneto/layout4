@@ -1,13 +1,13 @@
-@import "../utils/_variables";
-@import "../utils/global";
+@import '../utils/variables';
+@import '../utils/global';
 
 .bg-secondary {
   margin-top: 80px;
   position: relative;
 
   &::before {
-    background-color: map-get($colors, "secondary");
-    content: "";
+    background-color: map-get($colors, 'econdary');
+    content: '';
     height: 108px;
     left: calc(50% - 50px);
     position: absolute;
@@ -29,14 +29,14 @@
   padding-top: 80px;
 
   .luxury-title {
-    font-family: "Source Serif Pro", serif;
+    font-family: 'Source Serif Pro', serif;
     font-size: 22px;
     font-weight: 700;
     line-height: 20px;
   }
 
   .luxury-subtitle {
-    font-family: "Source Serif Pro", serif;
+    font-family: 'Source Serif Pro', serif;
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 4px;
@@ -54,7 +54,7 @@
 // ---- contact ----
 
 .item {
-  color: map-get($colors, "white");
+  color: map-get($colors, 'white');
   font-size: 14px;
   line-height: 12px;
   padding-bottom: 35px;
@@ -80,26 +80,26 @@
 
   &-input {
     background-color: transparent;
-    border: 2px solid map-get($colors, "primary");
+    border: 2px solid map-get($colors, 'primary');
     border-radius: 6px 0 0 6px;
-    caret-color: map-get($colors, "success");
-    color: map-get($colors, "white");
+    caret-color: map-get($colors, 'success');
+    color: map-get($colors, 'white');
     flex: 1;
     font-size: 16px;
     font-weight: 700;
     padding: 8px 10px;
 
     &::placeholder {
-      color: map-get($colors, "white");
+      color: map-get($colors, 'white');
       font-size: 16px;
       font-weight: 700;
     }
   }
 
   &-button {
-    background-color: map-get($colors, "primary");
+    background-color: map-get($colors, 'primary');
     border-radius: 0 6px 6px 0;
-    color: map-get($colors, "secondary");
+    color: map-get($colors, 'secondary');
     cursor: pointer;
     font-weight: 700;
     padding: 16px;

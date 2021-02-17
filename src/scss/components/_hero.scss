@@ -1,4 +1,4 @@
-@import "../utils/_variables";
+@import '../utils/variables';
 
 // Background
 
@@ -6,34 +6,34 @@
   background-position: center;
   background-size: cover;
   height: 100vh;
-  width: 100%;
   padding-top: 240px;
+  width: 100%;
 
   //  <--------------- Text ----------------->
 
   .luxury-welcome {
-    color: map-get($colors, "white");
-    font-weight: 500;
+    color: map-get($colors, 'white');
     font-size: 26px;
+    font-weight: 500;
     line-height: 40px;
   }
 
   .luxury {
-    color: map-get($colors, "white");
-    font-family: "Source Serif Pro", serif;
+    color: map-get($colors, 'white');
+    font-family: 'Source Serif Pro', serif;
     font-size: 80px;
     font-weight: 600;
     line-height: 70px;
   }
 
   .luxury-hotels {
-    letter-spacing: 8px;
     font-size: 26px;
+    letter-spacing: 8px;
     line-height: 30px;
   }
 
   .luxury-text {
-    color: map-get($colors, "white");
+    color: map-get($colors, 'white');
     font-size: 16px;
     letter-spacing: 2px;
     line-height: 20px;
@@ -56,7 +56,7 @@
   }
 
   &-text {
-    color: map-get($colors, "white");
+    color: map-get($colors, 'white');
     font-weight: 600;
     padding-bottom: 10px;
   }
